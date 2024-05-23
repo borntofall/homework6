@@ -59,8 +59,8 @@ public class Main {
         total = 0;
 
         for (int month = 1; month <= 12; month++) {
-            total = total + total/100;
             total = total + money;
+            total = total + total/100;
             System.out.println("Месяц " + month + " , сумма накоплений равна " + total + " рублей");
         }
 
